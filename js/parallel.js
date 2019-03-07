@@ -120,8 +120,8 @@ var schema = [{
 //console.log(1);
 var lineStyle = {
 	normal: {
-		width: 2,
-		opacity: 2,
+		width: 1,
+		opacity: 3,
 		//color:'#0169A5'
 		//color:color[4]
 	}
