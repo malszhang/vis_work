@@ -15,6 +15,13 @@ var stackBar = {
 }
 var STACK_COUNT = 4;
 var stackBarOption = {
+	grid: [{
+       left: '10%',
+       bottom: '10%',
+       top: '20%',
+       right: '10%',
+	   containLabel: true,
+   }],
 	tooltip: {
 		trigger: 'axis',
 		axisPointer: { // 坐标轴指示器，坐标轴触发有效

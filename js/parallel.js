@@ -127,13 +127,13 @@ var lineStyle = {
 	}
 };
 var option = {
-	backgroundColor: '#333',
+	backgroundColor: '#fff',
 	legend: {
 		bottom: 10,
 		data: parallel.code,
 		itemGap: 20,
 		textStyle: {
-			color: '#fff',
+			color: '#222',
 			fontSize: 14
 		}
 	},
@@ -176,9 +176,9 @@ var option = {
 		}
 	},
 	parallel: {
-		left: '5%',
+		left: '10%',
 		right: '18%',
-		bottom: '10%',
+		bottom: '18%',
 		top: '15%',
 		parallelAxisDefault: {
 			type: 'value',
@@ -186,17 +186,17 @@ var option = {
 			nameLocation: 'end',
 			nameGap: 20,
 			nameTextStyle: {
-				color: '#fff',
+				color: '#222',
 				fontSize: 12
 			},
 			axisLine: {
 				lineStyle: {
-					color: '#aaa'
+					color: '#222'
 				}
 			},
 			axisTick: {
 				lineStyle: {
-					color: '#777'
+					color: '#222'
 				}
 			},
 			splitLine: {
@@ -204,7 +204,7 @@ var option = {
 			},
 			axisLabel: {
 				textStyle: {
-					color: '#fff'
+					color: '#222'
 				}
 			}
 		}
