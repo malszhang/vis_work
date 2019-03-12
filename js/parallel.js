@@ -167,7 +167,7 @@ var option = {
 		},
 	],
 	visualMap: {
-		show: true,
+		show: false,
 		min: 0,
 		max: 150,
 		dimension: 5,
@@ -215,6 +215,7 @@ console.log(2);
 var count = 6;
 for (var i = 0; i < count; i++) {
 	option.series[i] = ({
+		smooth: true,
 		name: parallel.code[i],
 		type: 'parallel',
 		lineStyle: lineStyle,

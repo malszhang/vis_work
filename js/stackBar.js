@@ -11,7 +11,8 @@ var stackBar = {
 	team: ["iG", "EDG", "RNG", "RW", "Snake", "BLG", "JDG", "SNG", "FPX", "WE", "LGD", "OMG"],
 	color3: ['#86E3CE', '#D0E6A5', '#FFDD94', '#FA897B'],
 	color2: ['#3399CC', '#CCFFCC', '#99CCCC', '#99CCFF'],
-	color: ['#D2A9B0', '#E1C0D8', '#F1CFE5', '#A9A5A2']
+	
+	color4: ['#BF4226', '#E1C0D8', '#F1CFE5', '#A9A5A2']
 }
 var STACK_COUNT = 4;
 var stackBarOption = {
@@ -42,7 +43,7 @@ var stackBarOption = {
 	},
 	legend: {
 		data: stackBar.name,
-		color: stackBar.color,
+		// color: stackBar.color,
 		align: 'left',
 		left: 75
 	},
@@ -74,11 +75,11 @@ for (var i = 0; i < STACK_COUNT; i++) {
 			}
 		},
 		data: stackBar.data[i],
-		itemStyle: {
-			normal: {
-				color: stackBar.color[i],
-			}
-		},
+// 		itemStyle: {
+// 			normal: {
+// 				color: stackBar.color[i],
+// 			}
+// 		},
 
 	})
 }

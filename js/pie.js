@@ -1,18 +1,12 @@
 var dom = document.getElementById("pie");
 var myChart = echarts.init(dom);
-var app = {};
-option = null;
+
 
 option = {
-//     title: {
-//         text: '各\n指\n数\n占\n比\n情\n况\n',
-//         subtext: '来自计算',
-//         y: '5%'
-//     },
 	backgroundColor: '#fff',
     tooltip : {
         trigger: 'item',
-        formatter: "{a} <br/>{b} : {c} ({d}%)"
+        formatter: "{b} : {c} ({d}%)"
     },
     legend: {
         // orient: 'vertical',
