@@ -129,7 +129,7 @@ var lineStyle = {
 var option = {
 	backgroundColor: '#fff',
 	legend: {
-		bottom: 10,
+		top: 10,
 		data: parallel.code,
 		itemGap: 20,
 		textStyle: {
@@ -178,8 +178,8 @@ var option = {
 	parallel: {
 		left: '10%',
 		right: '18%',
-		bottom: '18%',
-		top: '15%',
+		bottom: '10%',
+		top: '25%',
 		parallelAxisDefault: {
 			type: 'value',
 			name: '平行坐标',
