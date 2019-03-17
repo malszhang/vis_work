@@ -13,7 +13,7 @@ option = {
         }
     },
     legend: {
-        data: [ '预测','胜率'],
+        data: [ '预测胜率','实际胜率'],
     },
     grid: {
         left: '3%',
